@@ -5,12 +5,11 @@
 <head>
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 <script src="../js/bootstrap.js"></script>
+
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
-
-
 	<table class="table table-hover table-sm">
 		<thead>
 			<tr>

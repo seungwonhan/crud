@@ -3,45 +3,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-<script src="js/bootstrap.js"></script>
+<link>
+
 <meta charset="UTF-8">
 <title>index.jsp</title>
 </head>
 <body>
- 
-<header>
-  <!-- Fixed navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">CRUD BOARD</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item active">
-            <a class="nav-link" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">BOARD</a>
-          </li>         
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-</header>
-
+ <!-- header link -->
+<jsp:include page="header.jsp"></jsp:include>
+	
 <!-- Begin page content -->
 <main class="flex-shrink-0">
   <div class="container">
-    <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-    <p class="lead">Pin a footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code class="small">padding-top: 60px;</code> on the <code class="small">main &gt; .container</code>.</p>
-    <p>Back to <a href="/docs/5.0/examples/sticky-footer/">the default sticky footer</a> minus the navbar.</p>
+    <h1 class="mt-5">여기는 CRUD를 만드는 홈페이지 입니다.</h1>
+    	<p><b>https://lessoncoding.tistory.com/</b>에 올릴 예정입니다.</p>
+    	
+    		DB : Mysql <br>
+    		IDE : Eclipse <br>
+    		언어 : JAVA(JSP) <br>
+    		Design : Bootstrap (List) <br>    		
+    		
+    		사용된 Jar 파일들 : 
+    	
+    	 
   </div>
 </main>
 
