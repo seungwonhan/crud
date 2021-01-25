@@ -5,11 +5,17 @@
 <head>
 <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 <script src="../js/bootstrap.js"></script>
+<script type="text/javascript">
+function
+
+</script>
 
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
 <body>
+<form action="/member/boardWriteForm.do" method="post">
+<button type="button" class="btn btn-primary">Write</button>
 	<table class="table table-hover table-sm">
 		<thead>
 			<tr>
@@ -28,9 +34,9 @@
 			     <td>@mdo</td>
 			     <td>@mdo</td>			     
    			 </tr>
-		</tbody>
-		
+		</tbody>		
 	</table>
+</form>
 
 </body>
 </html>
