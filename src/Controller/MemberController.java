@@ -11,9 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 import VO.ActionForward;
 import action.Action;
 import action.BoardListAction;
+import action.boardWritePro;
 
 
-@WebServlet("/member/*")
+@WebServlet("/board/*")
 public class MemberController extends HttpServlet{
 
 	@Override
@@ -47,7 +48,7 @@ public class MemberController extends HttpServlet{
 			}
 		}else if(pathInfo.equals("/boardWriteForm.do")) {
 			forward = new ActionForward();
-			forward.setPath("/board/board_write.jsp");
+			forward.setPath("/brd/board_write.jsp");
 			
 		}else if(pathInfo.equals("/boardWritePro.do")) {
 			action = new boardWritePro();

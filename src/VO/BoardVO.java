@@ -2,24 +2,26 @@ package VO;
 
 import java.sql.Timestamp;
 
-public class MemberVO {
+public class BoardVO {
 	
 	private int num;
 	private String title;
 	private String writer;
 	private Timestamp reg_date;
 	private String readcount;
+	private String content;
 	
-	public MemberVO() {
+	public BoardVO() {
 		// TODO Auto-generated constructor stub
 	}
 
-	public MemberVO(int num, String title, String writer, String readcount) {
+	public BoardVO(int num, String title, String writer, String readcount, String content) {
 		
 		this.num = num;
 		this.title = title;
 		this.writer = writer;
 		this.readcount = readcount;
+		this.content = content;
 	}
 
 	public int getNum() {
@@ -61,4 +63,15 @@ public class MemberVO {
 	public void setReadcount(String readcount) {
 		this.readcount = readcount;
 	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
 }
+	
+	
+	
